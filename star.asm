@@ -29,7 +29,6 @@ _print_loop:
 	cmp r10, [rbp-8]
 	je _inverse_delta
 _comeback_home:
-	;mov rdx, [rbp-8]
 	mov rdx, r10
 	call _print_star
 	call _newline
