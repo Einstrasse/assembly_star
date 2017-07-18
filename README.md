@@ -1,7 +1,7 @@
 # Printing Star
 
 ```
-nasm -f elf64 test.asm && ld -o test test.o
+nasm -f elf64 star.asm && ld -o star star.o
 ```
 
 %rax	SysCall 		%rdi	%rsi		%rdx
